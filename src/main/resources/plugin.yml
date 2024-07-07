@@ -1,0 +1,14 @@
+name: BLootAdder
+version: '${project.version}'
+main: org.by1337.loot.adder.Main
+api-version: '1.16'
+depend: [ BLib ]
+authors: [ By1337 ]
+
+commands:
+  bloot:
+    permission: bloot.use
+
+permissions:
+  bloot.*:
+    default: op
