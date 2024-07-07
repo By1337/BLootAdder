@@ -20,7 +20,7 @@ import org.by1337.loot.adder.menu.ItemBuilder;
 import java.util.*;
 
 public class SelectLootTableMenu extends AsyncClickListener {
-    public static final NamespacedKey ITEM_KEY = new NamespacedKey(Objects.requireNonNull(Bukkit.getPluginManager().getPlugin("BLootEditor")), "select_loot_table");
+    public static final NamespacedKey ITEM_KEY = new NamespacedKey(Objects.requireNonNull(Bukkit.getPluginManager().getPlugin("BLootAdder")), "select_loot_table");
     private int currentPage = 0;
     private List<ItemStack> itemStacks;
     private final CustomLootManager customLootManager;
